@@ -1,0 +1,32 @@
+.notify-msg {
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+  .ant-notification-notice-with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .ant-notification-notice-message {
+      margin: 10px 0 6px;
+      padding: 0;
+      font-size: 18px;
+    }
+    .ant-notification-notice-description {
+      margin: 0;
+      color: rgba(0, 0, 0, 0.45);
+    }
+  }
+  .ant-notification-notice-icon {
+    position: relative;
+    font-size: 18px;
+    margin: 0;
+  }
+  .anticon {
+    &.error {
+      color: #ff4c4c;
+    }
+  }
+  .ant-notification-notice-close {
+    display: none;
+  }
+}

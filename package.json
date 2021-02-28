@@ -1,6 +1,6 @@
 {
   "name": "react-initial",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -11,14 +11,23 @@
     "@types/react-dom": "^17.0.1",
     "@types/react-router-dom": "^5.1.7",
     "antd": "^4.12.3",
-    "axios": "^0.21.1",
     "echarts": "^5.0.2",
     "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "classnames": "^2.2.6",
     "typescript": "^4.1.2",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "react-apollo": "^3.1.5",
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -55,10 +64,13 @@
     ]
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
     "@types/react": "^17.0.2",
+    "@types/lodash": "^4.14.151",
     "customize-cra": "^1.0.0",
     "husky": "^5.1.1",
-    "less-loader": "^8.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "react-app-rewired": "^2.1.8"
